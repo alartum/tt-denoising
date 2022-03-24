@@ -1,0 +1,30 @@
+name: denoising-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - mamba>=0.18
+
+  # Computations
+  - numpy
+  - matplotlib
+  - scikit-image
+  - tensorly
+  - pandas
+  - imageio
+  - opencv
+
+  # Jupyter Lab
+  - ipykernel
+  - ipywidgets
+  - nb_black # black formatter
+  - wurlitzer # C level output
+
+  # Utilities
+  - tqdm # progress bar
+  - black # formatter
+  - isort # import sorter
+  - flake8 # linter
+  - pre_commit # git pre-commit hooks
