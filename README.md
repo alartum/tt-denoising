@@ -45,3 +45,12 @@ However, while the sparse structure extracts meaningful information about textur
 * `LapSRN_x8.pb`
 
 2. Put them into the `models/` folder.
+
+
+## Our team
+
+* Artemenkov Aleksandr
+* Paplavsky Nikita  
+* Shubin Artem
+
+This repository is a supplement to the **Tensor Decompositions and Tensor Networks in Artificial Intelligence** course project at **Skolkovo Institute of Science and Technology**. 
